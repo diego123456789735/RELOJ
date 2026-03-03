@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.instruccion {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.resultado {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.hora-espejo-container {
+    margin-bottom: 10px;
+}
+
+.hora-espejo-label,
+.hora-real-label {
+    font-size: 13px;
+}
+
+.hora-espejo-valor {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hora-real-valor {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
